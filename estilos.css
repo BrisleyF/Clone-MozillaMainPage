@@ -1,4 +1,97 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
+
+nav ul .link-op .elementos , button {
+    display: none;
+}
+
+nav {
+    padding: 0 6rem;
+    height: 4rem;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between ;
+    
+    padding-top: 1rem;
+}
+
+nav ul li {
+    list-style-type: none;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.ContenedorC {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.c-contenido-1 {
+    padding: 4rem 0;
+}
+
+.c-contenido-1 .grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.c-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4rem;
+}
+
+.c-2 img {
+    max-width: 100%;
+    margin-top: -3rem;
+}
+
+.c-contenido-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #f1f1f1;
+    height: 70vh;
+    margin-bottom: 6rem;
+}
+
+.c-3 {
+    max-width: 390px;
+    margin-left: 12rem;
+}
+
+.c-3 img {
+    width: 345px;
+    padding: 1.5rem 0.5rem;
+}
+
+.c-4 {
+    width: 60%;
+    margin-right: auto;
+    padding: 1.5rem 0.5rem;
+}
+
+.c-4 h2 {
+    text-align: center;
+    font-size: 3em;
+    line-height: 1em;
+    margin-bottom: 1rem;
+} 
+
+.c-4 p {
+    text-align: center;
+
+}
+
+
+
+
