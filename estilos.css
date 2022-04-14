@@ -5,29 +5,29 @@
 }
 
 /* NAVBAR */
-nav ul .link-op .elementos , button {
+header nav ul .link-op .elementos , button {
     display: none;
 }
 
-nav {
+header nav {
     padding: 0 6rem;
     height: 4rem;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
 }
 
-nav ul {
+header nav ul {
     display: flex;
     justify-content: space-between ;
     
     padding-top: 1rem;
 }
 
-nav ul li {
+header nav ul li {
     list-style-type: none;
     
 }
 
-nav ul li a {
+header nav ul li a {
     text-decoration: none;
 }
 
@@ -55,12 +55,12 @@ nav ul li a {
     padding-left: 4rem;
 }
 
-/* CONTENEDOR 2 */
 .c-2 img {
     max-width: 100%;
     margin-top: -3rem;
 }
 
+/* CONTENEDOR 2 */
 .c-contenido-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -69,7 +69,6 @@ nav ul li a {
     margin-bottom: 6rem;
 }
 
-/* CONTENEDOR 3 */
 .c-3 {
     max-width: 390px;
     margin-left: 12rem;
@@ -80,7 +79,6 @@ nav ul li a {
     padding: 1.5rem 0.5rem;
 }
 
-/* CONTENEDOR 4 */
 .c-4 {
     width: 60%;
     margin-right: auto;
@@ -96,9 +94,117 @@ nav ul li a {
 
 .c-4 p {
     text-align: center;
-
 }
 
+/* CONTENEDOR 3 */
+.c-contenido-3-flex {
+    display: flex;
+}
+
+.c-5 {
+    padding: 0 3rem;
+    border-right: 2px solid #f1f1f1;
+}
+
+.c-6 {
+    padding: 0 3rem;
+}
+
+.c-5 h2 , .c-6 h2 {
+    margin-bottom: 2rem;
+}
+
+.c-5 p , .c-6 p {
+    margin-bottom: 1.25rem;
+}
+
+.c-5 ul li , .c-6 ul li {
+    margin-left: 2rem;
+}
+
+.c-7 {
+    padding: 3rem 4rem;
+}
+
+.ul-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.ul-grid li {
+    list-style-type: none;
+    text-align: center;
+    margin-right: 2rem;
+}
+
+.c-contenido-4 {
+    padding: 4rem 12rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.c-9 {
+    padding-top: 4rem;
+}
+
+/* FOOTER*/
+.ContenedorF {
+    background-color: #000;
+    color: #fff;
+}
+
+.contenedor-footer {
+    padding: 3rem 4rem;
+}
+
+.contenedor-f-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-footer-section ul li {
+    list-style-type: none;
+}
+
+.c-footer-section ul li a {
+    color: #fff;
+}
+
+.c-footer-section-social li {
+    list-style-type: none;
+}
+
+.nav-footer-2 {
+    padding-top: 1.5rem;
+}
+
+.contenedor-f-section-2 {
+    position: relative;
+    float: right;
+}
+
+.contenedor-f-section-2 a {
+    color: #fff;
+}
+
+.nav-footer-2 .c-f-ul ul {
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+.nav-footer-2 .c-f-ul ul li {
+    display: flex;
+    list-style-type: none;
+    margin-right: 2rem;
+}
+
+.nav-footer-2 .c-f-ul ul li a {
+    color: #fff;
+}
+
+.nav-footer-2 .c-f-ul p a {
+    color: #fff;
+}
 
 
 
