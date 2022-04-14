@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* NAVBAR */
 nav ul .link-op .elementos , button {
     display: none;
 }
@@ -30,11 +31,14 @@ nav ul li a {
     text-decoration: none;
 }
 
+
+/* CONTENEDOR DEL CONTENIDO */
 .ContenedorC {
     width: 90vw;
     margin: 0 auto;
 }
 
+/* CONTENEDOR 1 */
 .c-contenido-1 {
     padding: 4rem 0;
 }
@@ -51,6 +55,7 @@ nav ul li a {
     padding-left: 4rem;
 }
 
+/* CONTENEDOR 2 */
 .c-2 img {
     max-width: 100%;
     margin-top: -3rem;
@@ -64,6 +69,7 @@ nav ul li a {
     margin-bottom: 6rem;
 }
 
+/* CONTENEDOR 3 */
 .c-3 {
     max-width: 390px;
     margin-left: 12rem;
@@ -74,6 +80,7 @@ nav ul li a {
     padding: 1.5rem 0.5rem;
 }
 
+/* CONTENEDOR 4 */
 .c-4 {
     width: 60%;
     margin-right: auto;
