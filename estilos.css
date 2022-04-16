@@ -15,19 +15,32 @@ header nav {
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
 }
 
-header nav ul {
+header nav ul { 
     display: flex;
-    justify-content: space-between ;
-    
     padding-top: 1rem;
 }
 
+
 header nav ul li {
     list-style-type: none;
-    
+    display: flex;
+    align-items: center;
 }
 
 header nav ul li a {
+    text-decoration: none;
+}
+
+header nav .link-op .op1, .op2, .op3, .op4 {
+    padding: 0 1.5rem;
+}
+
+.boton-descarga {
+    display: flex;
+    align-items: center;
+}
+
+.boton-descarga a {
     text-decoration: none;
 }
 
@@ -157,9 +170,21 @@ header nav ul li a {
     padding: 3rem 4rem;
 }
 
+.nav-footer {
+    padding-bottom: 3rem;
+}
+
+.nav-footer .c-f-imagen {
+    margin-bottom: 2rem;
+}
+
 .contenedor-f-section {
     display: flex;
     justify-content: space-between;
+}
+
+.contenedor-f-section h5 {
+    padding: 1rem 0;
 }
 
 .c-footer-section ul li {
@@ -168,10 +193,24 @@ header nav ul li a {
 
 .c-footer-section ul li a {
     color: #fff;
+    text-decoration: none;
+}
+
+.c-footer-section-social h5 {
+    padding: 1rem 0;
+}
+
+.c-footer-list-social {
+    display: flex;
 }
 
 .c-footer-section-social li {
     list-style-type: none;
+    margin-bottom: 3rem;
+}
+
+.c-footer-section-social li a {
+    padding-right: 1rem;
 }
 
 .nav-footer-2 {
@@ -202,9 +241,15 @@ header nav ul li a {
     color: #fff;
 }
 
+.nav-footer-2 .c-f-ul p {
+    max-width: 66%;
+}
+
 .nav-footer-2 .c-f-ul p a {
     color: #fff;
 }
+
+
 
 
 
