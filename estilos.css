@@ -1,13 +1,10 @@
 * {
     padding: 0;
-    margin: 0;
+    margin: 0; 
     box-sizing: border-box;
 }
 
 /* NAVBAR */
-header nav ul .link-op .elementos , button {
-    display: none;
-}
 
 header nav {
     padding: 0 6rem;
@@ -15,12 +12,12 @@ header nav {
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
 }
 
-header nav ul { 
+header nav .lista-principal { 
     display: flex;
     padding-top: 1rem;
 }
 
-header nav ul li {
+header nav .lista-principal .link-op {
     list-style-type: none;
     display: flex;
     align-items: center;
@@ -49,6 +46,128 @@ header nav .boton-descarga a {
     color: #0060df;
     font-weight: bold;
 }
+
+/* submenu del navbar*/
+nav ul .link-op .op1:hover , .op2:hover, .op3:hover, .op4:hover {
+    text-decoration: underline 3px;
+}
+
+/* se oculta el contenedor de los enlaces (sub) */
+.menu-panel, .menu-panel-2 {
+    display: none;
+    position: absolute;
+    width: 45%;
+    height: 35rem;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
+    border-radius: 8px;
+    top: 70px;
+    z-index: 10;
+}
+.menu-panel-3 {
+    display: none;
+    position: absolute;
+    width: 45%;
+    height: 470px;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
+    border-radius: 8px;
+    top: 70px;
+}
+
+.menu-panel-4 {
+    display: none;
+    position: absolute;
+    width: 45%;
+    height: 350px;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
+    border-radius: 8px;
+    top: 70px;
+    left: 230px;
+}
+
+/* se coloco el contenido en 4 filas*/
+.grid1, .grid2 {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(4,max-content);
+    padding: 15px 40px;
+}
+
+.grid3 {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(3,max-content);
+    padding: 15px 40px;
+}
+
+.grid4 {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(2,max-content);
+    padding: 15px 40px;
+}
+
+/* se coloco el icono como bloque para poder flotarlo a la izquierda*/
+.section {
+    padding-top: 1rem;
+}
+
+.section .link .icon {
+    display: block;
+    float: left;
+    list-style-type: none;
+}
+.grid1, .grid2, .grid3, .grid4 li {
+    list-style-type: none;
+}
+
+.link h4 {
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 0 0 15px 50px;
+}
+
+.link p {
+    font-size: 13px;
+    color: black;
+    font-family: sans-serif;
+    padding: 0 0 20px 50px;
+}
+
+.menu-panel button, .menu-panel-2 button, .menu-panel-3 button, .menu-panel-4 button {
+    background-color: white;
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.menu-panel button a:hover, .menu-panel-2 button a:hover, .menu-panel-3 button a:hover, .menu-panel-4 button a:hover {
+    text-decoration: underline;
+}
+
+/* mostar submenu*/
+nav ul .link-op:hover .menu-panel {
+    display: block;
+}
+
+nav ul .link-op:hover .menu-panel-2 {
+    display: block;
+}
+
+nav ul .link-op:hover .menu-panel-3 {
+    display: block;
+}
+
+nav ul .link-op:hover .menu-panel-4 {
+    display: block;
+}
+
 
 /* CONTENEDOR DEL CONTENIDO */
 .ContenedorC {
