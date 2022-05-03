@@ -34,17 +34,19 @@ header nav .link-op .op1, .op2, .op3, .op4 {
 }
 
 header nav #boton-descarga {
-    display: flex;
-    align-items: center;
     border: 2px solid #0060df;
-    padding: 4px 24px;
     border-radius: 0.3rem;
+    background-color: transparent;
+    min-width: 174px;
+    min-height: 34px;
+    font-size: 14px;
 }
 
 header nav .boton-descarga a {
     text-decoration: none;
     color: #0060df;
     font-weight: bold;
+    padding: 4px 24px;
 }
 
 /* submenu del navbar*/
