@@ -1,3 +1,91 @@
+@media (max-width:1030px) {
+    header nav {
+        height: 112px;
+    }
+
+    header nav ul li {
+        margin-top: 3.8rem;
+        
+    }
+
+    header nav ul li a {
+        position: relative;
+        right: 8.5rem;
+    }
+
+    .menu-panel, .menu-panel-2 {
+        display: none;
+        position: absolute;
+        width: 55%;
+        height: 43rem;
+        background-color: white;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
+        border-radius: 8px;
+        top: 130px;
+        left: 100px;
+        z-index: 10;
+    }
+    .menu-panel-3 {
+        display: none;
+        position: absolute;
+        width: 55%;
+        height: 35rem;
+        background-color: white;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
+        border-radius: 8px;
+        top: 130px;
+        left: 380px;
+    }
+    
+    .menu-panel-4 {
+        display: none;
+        position: absolute;
+        width: 55%;
+        height: 25rem;
+        background-color: white;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
+        border-radius: 8px;
+        top: 130px;
+        left: 110px;
+    }
+
+    .menu-panel .grid1 .elementos, .menu-panel-2 .grid2 .elementos, 
+    .menu-panel-3 .grid3 .elementos, .menu-panel-4 .grid4 .elementos {
+        position: relative;
+        bottom: 50px;
+        left: 140px;
+    }
+
+    .menu-panel .grid1 .elementos .section,  .menu-panel-2 .grid2 .elementos .section,
+    .menu-panel-3 .grid3 .elementos .section, .menu-panel-4 .grid4 .elementos .section {
+        height: 90px;
+        margin-right: 2rem;
+    }
+
+    .menu-panel button, .menu-panel-2 button, .menu-panel-3 button, .menu-panel-4 button {
+        position: relative;
+        left: 150px;
+    }
+
+    .c-contenido-1 h2 {
+        font-size: 4em;
+    }
+
+    .c-contenido-1 .c-2 img {
+        width: 410px;
+        height: 364px;
+    }
+
+    .c-contenido-2 {
+        height: 55vh;
+    }
+
+    .c-contenido-2 .c-4 h2 {
+        font-size: 2.5em;
+    }
+
+}
+
 @media (max-width:320px) {
     .contenedorHeader{
         width: 90%;
@@ -121,7 +209,7 @@
         font-weight: bolder;
     }
     
-    .c-contenido-4 .c-9 input {
+    .c-contenido-4 .c-9 input { 
         width: 100%;
         padding: 0.5rem ;
         margin: 1rem 0;
@@ -166,8 +254,4 @@
     .nav-footer-2 .c-f-ul p {
         max-width: 100%;
     }
-
-    
-    
-    
 }
