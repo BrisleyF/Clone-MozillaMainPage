@@ -25,6 +25,18 @@
         padding-bottom: 6rem;
     }
 
+    .ContenedorC .c-contenido-1 .grid-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .ContenedorC .c-contenido-1 .c-1  {
+        padding-left: 2rem;
+    }
+
+    .ContenedorC .c-contenido-1 .c-1 h2 {
+        text-align: center;
+    }
+
     .ContenedorC .c-contenido-1 .c-2 {
         display: none;
     }
@@ -55,4 +67,107 @@
     .ContenedorC .c-contenido-2 .c-4 h2 {
         font-size: 2.3rem;
     }
+
+    .c-contenido-3 .c-contenido-3-flex {
+        flex-direction: column;
+        border-right: none;
+    }
+
+    .c-contenido-3 .c-5, .c-6 {
+        padding: 1rem 0;
+        border: none;
+    }
+
+    .c-7 {
+        padding: 3rem 1.5rem;
+    }
+
+    .c-7 .ul-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .c-7 .ul-grid li {
+        margin: 0;
+        padding-bottom: 2rem;
+    }
+
+    .c-7 .ul-grid h2 {
+        font-size: 1.5rem;
+    }
+
+    .c-7 .ul-grid p {
+        padding: 0;
+    }
+
+    .c-contenido-4 {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+    }
+
+    .c-contenido-4 img {
+        width: 272px;
+    }
+
+    .c-contenido-4 .c-9 {
+        padding: 3rem 1rem;
+    }
+
+    .c-contenido-4 .c-9 h3 {
+        font-size: 2.5rem;
+    }
+
+    .c-contenido-4 .c-9 label {
+        margin-bottom: 0.5rem;
+        font-weight: bolder;
+    }
+    
+    .c-contenido-4 .c-9 input {
+        width: 100%;
+        padding: 0.5rem ;
+        margin: 1rem 0;
+        border-radius: 4px;
+    } 
+
+    .c-contenido-4 .c-9 button {
+        background-color: #000;
+        border: 2px solid #000;
+        color: #fff;
+        width: 100%;
+        padding: 0.5rem  1.5rem;
+        font-size: 1em;
+    }
+
+    footer .contenedor-footer {
+        padding: 3rem 1.5rem;
+    }
+
+    footer .contenedor-f-section {
+        flex-direction: column; 
+    }
+
+    footer .contenedor-f-section .c-footer-list {
+        display: none;
+    }
+
+    .nav-footer-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav .contenedor-f-section-2  {
+        float: left;
+        margin-bottom: 2rem;
+    }
+
+    .nav-footer-2  .c-f-ul ul {
+        flex-direction: column;
+    }
+
+    .nav-footer-2 .c-f-ul p {
+        max-width: 100%;
+    }
+
+    
+    
+    
 }
