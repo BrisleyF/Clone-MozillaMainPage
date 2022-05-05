@@ -1,4 +1,4 @@
-@media (max-width:1030px) {
+@media (max-width: 1030px) {
     header nav {
         height: 112px;
     }
@@ -25,6 +25,7 @@
         left: 100px;
         z-index: 10;
     }
+
     .menu-panel-3 {
         display: none;
         position: absolute;
@@ -77,16 +78,141 @@
     }
 
     .c-contenido-2 {
-        height: 55vh;
+        height: 65vh;
     }
 
     .c-contenido-2 .c-4 h2 {
         font-size: 2.5em;
     }
+}
+
+@media (max-width: 1020px) {
+    header nav {
+        height: 64px;
+    }
+
+    header nav ul li {
+        margin-top: 0;
+    }
+
+    header nav ul li a {
+        position: relative;
+        right: 0;
+    }
+
+    .grid1, .grid2, .grid3, .grid4 {
+        display: grid; 
+        grid-auto-flow: row; 
+        padding-top: 3rem;
+    }
+
+    .menu-panel {
+        display: none;
+        position: absolute;
+        width: 30%;
+        height: 50rem;
+        background-color: white;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
+        border-radius: 8px;
+        top: 80px;
+        left: 220px;
+        z-index: 10;
+    }
+
+    .menu-panel-2 {
+        display: none;
+        position: absolute;
+        width: 30%;
+        height: 50rem;
+        background-color: white;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
+        border-radius: 8px;
+        top: 80px;
+        left: 380px;
+        z-index: 10;
+    }
+    
+    .menu-panel-3 {
+        display: none;
+        position: absolute;
+        width: 30%;
+        height: 45rem;
+        background-color: white;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
+        border-radius: 8px;
+        top: 80px;
+        left: 500px;
+    }
+    
+    .menu-panel-4 {
+        display: none;
+        position: absolute;
+        width: 30%;
+        height: 30rem;
+        background-color: white;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
+        border-radius: 8px;
+        top: 80px;
+        left: 450px;
+    }
+
+    .menu-panel .grid1 .elementos,  .menu-panel-2 .grid2 .elementos,
+    .menu-panel-3 .grid3 .elementos, .menu-panel-4 .grid4 .elementos {
+        left: -20px;
+        width: 280px;
+        padding-bottom: 1rem;
+    }
+
+    .menu-panel button, .menu-panel-2 button, .menu-panel-3 button, .menu-panel-4 button {
+        position: relative;
+        left: 15px;
+        bottom: 50px;
+    }
+
+    .c-contenido-3 .c-contenido-3-flex {
+        flex-direction: column;
+        border-right: none;
+    }
+
+    .c-contenido-3 .c-5 {
+        padding-bottom: 2rem;
+        border: none;
+    }
+
+    .c-7 .ul-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .c-7 .ul-grid li {
+        margin: 0;
+        padding-bottom: 2rem;
+    }
+
+    .c-7 .ul-grid h2 {
+        font-size: 1.7rem;
+    }
+
+    .c-contenido-4 {
+        padding: 4rem 3rem;
+    }
+
+    .contenedor-f-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .c-footer-section ul {
+        padding-bottom: 1rem;
+    }
+
+    .nav-footer-2 .c-f-ul ul a {
+        padding-bottom: 1rem;
+        grid-gap: 100%;
+    }
 
 }
 
-@media (max-width:320px) {
+@media (max-width: 320px) {
     .contenedorHeader{
         width: 90%;
         margin: 0 auto;
@@ -213,7 +339,6 @@
         width: 100%;
         padding: 0.5rem ;
         margin: 1rem 0;
-        border-radius: 4px;
     } 
 
     .c-contenido-4 .c-9 button {
@@ -223,6 +348,7 @@
         width: 100%;
         padding: 0.5rem  1.5rem;
         font-size: 1em;
+        border-radius: 4px;
     }
 
     footer .contenedor-footer {
@@ -249,6 +375,10 @@
 
     .nav-footer-2  .c-f-ul ul {
         flex-direction: column;
+    }
+
+    .nav-footer-2  .c-f-ul ul a {
+        padding-bottom: 1rem;
     }
 
     .nav-footer-2 .c-f-ul p {
