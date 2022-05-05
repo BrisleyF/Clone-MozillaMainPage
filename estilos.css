@@ -141,7 +141,7 @@ nav ul .link-op .op1:hover , .op2:hover, .op3:hover, .op4:hover {
 }
 
 .menu-panel button, .menu-panel-2 button, .menu-panel-3 button, .menu-panel-4 button {
-    background-color: white;
+    background-color: transparent;
     border: none;
     width: 90%;
     margin: 0 auto;
