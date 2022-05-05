@@ -75,6 +75,7 @@
     .c-contenido-1 .c-2 img {
         width: 410px;
         height: 364px;
+        margin-top: 0;
     }
 
     .c-contenido-2 {
@@ -209,7 +210,126 @@
         padding-bottom: 1rem;
         grid-gap: 100%;
     }
+}
 
+@media (max-width: 900px) {
+        header nav {
+            height: 112px;
+        }
+
+        header nav ul li {
+            margin-top: 3.8rem;
+        
+        }
+
+        header nav ul li a {
+            position: relative;
+            right: 8.5rem;
+        }  
+
+        .menu-panel {
+            display: none;
+            position: absolute;
+            width: 35%;
+            height: 52rem;
+            background-color: white;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
+            border-radius: 8px;
+            top: 130px;
+            left: 100px;
+            z-index: 10;
+        }
+
+        .menu-panel-2 {
+            display: none;
+            position: absolute;
+            width: 35%;
+            height: 52rem;
+            background-color: white;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
+            border-radius: 8px;
+            top: 130px;
+            left: 230px;
+            z-index: 10;
+        }
+    
+        .menu-panel-3 {
+            display: none;
+            position: absolute;
+            width: 35%;
+            height: 45rem;
+            background-color: white;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
+            border-radius: 8px;
+            top: 130px;
+            left: 350px;
+        }
+        
+        .menu-panel-4 {
+            display: none;
+            position: absolute;
+            width: 35%;
+            height: 32rem;
+            background-color: white;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
+            border-radius: 8px;
+            top: 130px;
+            left: 280px;
+        }
+
+        .menu-panel .grid1 .elementos,  .menu-panel-2 .grid2 .elementos,
+        .menu-panel-3 .grid3 .elementos, .menu-panel-4 .grid4 .elementos {
+            left: 120px;
+            bottom: 100px;
+            padding: 0;
+            
+        }
+
+        .menu-panel .grid1 .elementos .section,  .menu-panel-2 .grid2 .elementos .section,
+        .menu-panel-3 .grid3 .elementos .section, .menu-panel-4 .grid4 .elementos .section {
+            height: 0px;
+            margin-right: 0rem;
+    }
+    
+        .menu-panel button, .menu-panel-2 button, .menu-panel-3 button, .menu-panel-4 button {
+            position: relative;
+            left: 150px;
+            bottom: 50px;
+        }
+
+        .c-contenido-1 .c-2 img {
+            width: 345px;
+            height: 306px;
+        }
+
+        .c-contenido-2 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            background-color: #f1f1f1;
+            height: 55vh;
+            margin-bottom: 6rem;
+        }
+
+        .c-contenido-2 .c-3 {
+            
+            margin-left: 5rem;
+        }
+        
+        .c-contenido-2 .c-3 img {
+            width: 250px;
+            height: 250px;
+            padding: 1.5rem 0.5rem;
+        }
+
+        .c-contenido-3 .c-5, .c-6 {
+            padding-bottom: 4rem;
+            border: none;
+        }
+    
+        .c-7 .ul-grid li {
+            margin: 0;
+            padding-bottom: 3rem;
+        }
 }
 
 @media (max-width: 320px) {
