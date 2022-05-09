@@ -227,6 +227,12 @@
             right: 8.5rem;
         }  
 
+        nav ul #boton-descarga {
+            position: relative;
+            right: 100px;
+
+        }
+
         .menu-panel {
             display: none;
             position: absolute;
@@ -289,7 +295,7 @@
         .menu-panel-3 .grid3 .elementos .section, .menu-panel-4 .grid4 .elementos .section {
             height: 0px;
             margin-right: 0rem;
-    }
+        }
     
         .menu-panel button, .menu-panel-2 button, .menu-panel-3 button, .menu-panel-4 button {
             position: relative;
@@ -332,6 +338,139 @@
         }
 }
 
+@media (max-width: 780px) {
+
+    header nav {    
+        width: 100vw;
+        height: 64px;
+        padding: 0 1.5rem;
+    }
+
+    .link-op a {
+        display: none;
+    }
+
+    nav ul #boton-descarga {
+        border: none;
+    }
+
+    nav .boton-descarga a {
+        display: none;
+    }
+
+    .ContenedorC .c-contenido-1 {
+        padding: 3rem 0 6rem 0;
+    }
+
+    .c-contenido-1 .grid-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .ContenedorC .c-contenido-1 .c-1  {
+        padding: 0 1.5rem;
+    }
+
+    .ContenedorC .c-contenido-1 .c-1 h2 {
+        text-align: center;
+        padding: 0;
+        margin-bottom: 0.8rem;
+        line-height: 1;
+        font-size: 3.5em;
+    }
+
+    .ContenedorC .c-contenido-1 .c-2 {
+        display: none;
+    }
+
+    .ContenedorC .c-contenido-1 p {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .ContenedorC .c-contenido-2 {
+        grid-template-columns: repeat(1, 1fr);
+        height: 50vh;
+        padding: 4rem 0;
+    }
+
+    .ContenedorC .c-contenido-2 .c-3 {
+        width: 0;
+        height: 0;
+    }
+
+    .ContenedorC .c-contenido-2 .c-3 img {
+        width: 250px;
+        margin-top: -155px;
+        position: relative;
+        left: 140px;
+
+    }
+
+    .c-4 {
+        width: 50%;
+        padding: 1rem 0;
+        margin: 0 auto;
+        position: relative;
+        top: 3rem;
+    }
+    .c-contenido-3 .c-5, .c-6 {
+        padding: 1rem 0;
+        border: none;
+    }
+
+    .c-7 {
+        padding: 3rem 1.5rem;
+    }
+
+    .c-7 .ul-grid p {
+        padding: 0;
+    }
+
+    .c-contenido-4 {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+    }
+
+    .c-contenido-4 img {
+        width: 272px;
+    }
+
+    .c-contenido-4 .c-9 {
+        padding: 3rem 1rem;
+        width: 60vw;
+        margin: 0 auto;
+    }
+
+    .c-contenido-4 .c-9 h3 {
+        font-size: 2.5rem;
+    }
+
+    .c-contenido-4 .c-9 label {
+        margin-bottom: 0.5rem;
+        font-weight: bolder;
+    }
+    
+    .c-contenido-4 .c-9 input { 
+        width: 100%;
+        padding: 0.5rem ;
+        margin: 1rem 0;
+    } 
+
+    .c-contenido-4 .c-9 button {
+        background-color: #000;
+        border: 2px solid #000;
+        color: #fff;
+        width: 100%;
+        padding: 0.5rem  1.5rem;
+        font-size: 1em;
+        border-radius: 4px;
+    }
+
+
+}
+
+
 @media (max-width: 320px) {
     .contenedorHeader{
         width: 90%;
@@ -340,7 +479,8 @@
 
     header nav {    
         width: 100vw;
-        padding: 0 1rem;
+        height: 64px;
+        padding: 0 1.5rem;
     }
 
     .link-op a {
