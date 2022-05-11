@@ -79,11 +79,21 @@
     }
 
     .c-contenido-2 {
-        height: 65vh;
+        height: 60vh;
+    }
+
+    .c-3 {
+        max-width: 390px;
+        margin-left: 4rem;
+    }
+
+    .c-contenido-2 .c-4 {
+        width: 80%;
     }
 
     .c-contenido-2 .c-4 h2 {
-        font-size: 2.5em;
+        font-size: 3em;
+        margin-bottom: 1.5rem;
     }
 }
 
@@ -390,29 +400,34 @@
 
     .ContenedorC .c-contenido-2 {
         grid-template-columns: repeat(1, 1fr);
-        height: 50vh;
+        min-height: 50vh;
         padding: 4rem 0;
     }
 
     .ContenedorC .c-contenido-2 .c-3 {
-        width: 0;
+        width: 250px;
         height: 0;
+        margin: auto;
     }
 
     .ContenedorC .c-contenido-2 .c-3 img {
         width: 250px;
-        margin-top: -155px;
         position: relative;
-        left: 140px;
+        top: -155px;
     }
 
-    .c-4 {
+    .ContenedorC .c-contenido-2 .c-4 {
         width: 50%;
         padding: 1rem 0;
         margin: 0 auto;
         position: relative;
         top: 3rem;
     }
+
+    .ContenedorC .c-contenido-2 .c-4 h2 {
+        font-size: 2em;
+    }
+
     .c-contenido-3 .c-5, .c-6 {
         padding: 1rem 0;
         border: none;
@@ -440,8 +455,8 @@
     }
 
     .c-contenido-4 .c-9 {
-        padding: 3rem 1rem;
-        width: 60vw;
+        padding: 3rem 0rem;
+        width: 80vw;
         margin: 0 auto;
     }
 
@@ -474,10 +489,6 @@
         padding: 3rem 1.5rem;
     }
 
-    footer .contenedor-f-section {
-        flex-direction: column; 
-    }
-
     .nav-footer-2 {
         display: flex;
         flex-direction: column;
@@ -499,9 +510,15 @@
     .nav-footer-2 .c-f-ul p {
         max-width: 100%;
     }
-
 }
 
+@media (max-width: 534px) {
+    .ContenedorC .c-contenido-2 .c-4 {
+        width: 75%;
+        margin: auto;
+        padding: 0;
+    }
+}
 
 @media (max-width: 320px) {
     .contenedorHeader{
@@ -549,7 +566,7 @@
 
     .ContenedorC .c-contenido-2 {
         grid-template-columns: repeat(1, 1fr);
-        height: 90vh;
+        height: 65vh;
         padding-top: 4rem;
     }
 
@@ -566,8 +583,10 @@
         bottom: 8rem;
     }
 
-    .c-4 {
+    .ContenedorC .c-contenido-2 .c-4 {
         width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     .ContenedorC .c-contenido-2 .c-4 h2 {
@@ -607,6 +626,16 @@
 
     .c-contenido-4 img {
         width: 272px;
+    }
+
+    .c-contenido-4 .c-9 {
+        padding: 2rem 0;
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    .contenedor-f-section{
+        grid-template-columns: repeat(1, 1fr);
     }
 
     footer .contenedor-f-section .c-footer-list {
