@@ -220,7 +220,7 @@ nav ul .link-op:hover .menu-panel-4 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: #f1f1f1;
-    height: 70vh;
+    min-height: 55vh;
     margin-bottom: 6rem;
 }
 
