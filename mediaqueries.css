@@ -1,9 +1,107 @@
+
 @media (min-width: 2030px) {
     header nav ul {
-        width: 90%;
+        width: 60%;
         margin: 0 auto;
     }
+
+    header nav #boton-descarga {
+        margin-left: 35rem;
+    }
+
+    .menu-panel {
+        display: none;
+        position: absolute;
+        width: 30%;
+        height: 45rem;
+        background-color: white;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
+        border-radius: 8px;
+        top: 70px;
+        left: 32rem;
+        z-index: 10;
+    }
+
+    .menu-panel-2 {
+        display: none;
+        position: absolute;
+        width: 30%;
+        height: 45rem;
+        background-color: white;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
+        border-radius: 8px;
+        top: 70px;
+        left: 40rem;
+        z-index: 10;
+    }
+
+    .menu-panel-3 {
+        display: none;
+        position: absolute;
+        width: 30%;
+        height: 35rem;
+        background-color: white;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
+        border-radius: 8px;
+        top: 70px;
+        left: 50rem;
+    }
+    
+    .menu-panel-4 {
+        display: none;
+        position: absolute;
+        width: 30%;
+        height: 25rem;
+        background-color: white;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
+        border-radius: 8px;
+        top: 70px;
+        left: 32rem;
+    }
+
+    .menu-panel .grid1 .elementos, .menu-panel-2 .grid2 .elementos, 
+    .menu-panel-3 .grid3 .elementos, .menu-panel-4 .grid4 .elementos {
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+        margin: 0;
+    }
+
+    .menu-panel .grid1 .elementos .section,  .menu-panel-2 .grid2 .elementos .section,
+    .menu-panel-3 .grid3 .elementos .section, .menu-panel-4 .grid4 .elementos .section {
+        height: 160px;
+        margin-right: 1rem;
+    }
+
+    .c-contenido-1 {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .c-contenido-2 {
+        width: 60%;
+        margin: 0 auto;
+        min-height: 30vh;
+        margin-bottom: 6rem;
+    }
+
+    .c-contenido-3 {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .c-contenido-4 {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    footer .contenedor-footer {
+        width: 60%;
+        margin: 0 auto;
+    }
+
 }
+
 
 @media (max-width: 1100px) {
     header nav #boton-descarga {
