@@ -1,3 +1,16 @@
+@media (min-width: 2030px) {
+    header nav ul {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1100px) {
+    header nav #boton-descarga {
+        margin-left: 5rem;
+    }
+}
+
 @media (max-width: 1030px) {
     header nav {
         height: 112px;
@@ -5,12 +18,15 @@
 
     header nav ul li {
         margin-top: 3.8rem;
-        
     }
 
     header nav ul li a {
         position: relative;
         right: 8.5rem;
+    }
+
+    header nav #boton-descarga {
+        margin-left: 4rem;
     }
 
     .menu-panel, .menu-panel-2 {
@@ -109,6 +125,10 @@
     header nav ul li a {
         position: relative;
         right: 0;
+    }
+
+    header nav #boton-descarga {
+        margin-left: 0rem;
     }
 
     .grid1, .grid2, .grid3, .grid4 {
@@ -240,7 +260,10 @@
         nav ul #boton-descarga {
             position: relative;
             right: 100px;
+        }
 
+        header nav #boton-descarga {
+            margin-left: -2rem;
         }
 
         .menu-panel {
