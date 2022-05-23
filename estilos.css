@@ -171,6 +171,9 @@ nav ul .link-op:hover .menu-panel-4 {
     display: block;
 }
 
+.link-op {
+    height: 50px;
+}
 
 /* CONTENEDOR DEL CONTENIDO */
 .ContenedorC {
