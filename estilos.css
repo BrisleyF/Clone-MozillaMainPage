@@ -95,7 +95,7 @@ nav ul .link-op .op1:hover , .op2:hover, .op3:hover, .op4:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
     border-radius: 8px;
     top: 70px;
-    left: 330px;
+    left: 370px;
 } 
 
 /* se coloco el contenido en 4 filas */
@@ -239,7 +239,6 @@ nav ul .link-op:hover .menu-panel-4 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: #f1f1f1;
-    min-height: 55vh;
     margin-bottom: 6rem;
 }
 
