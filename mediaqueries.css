@@ -5,72 +5,54 @@
         margin: 0 auto;
     }
 
-    header nav #boton-descarga {
-        margin-left: 35rem;
-    }
-
     .menu-panel {
         display: none;
         position: absolute;
-        width: 30%;
-        height: 45rem;
         background-color: white;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
         border-radius: 8px;
         top: 70px;
-        left: 32rem;
         z-index: 10;
     }
 
     .menu-panel-2 {
         display: none;
         position: absolute;
-        width: 30%;
-        height: 45rem;
         background-color: white;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
         border-radius: 8px;
         top: 70px;
-        left: 40rem;
         z-index: 10;
     }
 
     .menu-panel-3 {
         display: none;
         position: absolute;
-        width: 30%;
-        height: 35rem;
         background-color: white;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
         border-radius: 8px;
         top: 70px;
-        left: 50rem;
     }
     
     .menu-panel-4 {
         display: none;
         position: absolute;
-        width: 30%;
-        height: 25rem;
         background-color: white;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
         border-radius: 8px;
         top: 70px;
-        left: 32rem;
+        left: 550px;
     }
 
     .menu-panel .grid1 .elementos, .menu-panel-2 .grid2 .elementos, 
     .menu-panel-3 .grid3 .elementos, .menu-panel-4 .grid4 .elementos {
         position: relative;
-        bottom: 0px;
-        left: 0px;
-        margin: 0;
+        right: 50px;
     }
 
     .menu-panel .grid1 .elementos .section,  .menu-panel-2 .grid2 .elementos .section,
     .menu-panel-3 .grid3 .elementos .section, .menu-panel-4 .grid4 .elementos .section {
-        height: 160px;
-        margin-right: 1rem;
+        margin-right: 2rem;
     }
 
     .c-contenido-1 {
@@ -186,7 +168,7 @@
     }
 
     .c-contenido-2 {
-        height: 60vh;
+    
     }
 
     .c-3 {
@@ -415,7 +397,6 @@
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             background-color: #f1f1f1;
-            height: 55vh;
             margin-bottom: 6rem;
         }
 
@@ -493,7 +474,6 @@
 
     .ContenedorC .c-contenido-2 {
         grid-template-columns: repeat(1, 1fr);
-        min-height: 50vh;
         padding: 4rem 0;
     }
 
@@ -659,7 +639,6 @@
 
     .ContenedorC .c-contenido-2 {
         grid-template-columns: repeat(1, 1fr);
-        height: 65vh;
         padding-top: 4rem;
     }
 
