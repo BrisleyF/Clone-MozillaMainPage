@@ -55,22 +55,32 @@ nav ul .link-op .op1:hover , .op2:hover, .op3:hover, .op4:hover {
 }
 
 /* se oculta el contenedor de los enlaces (sub) */
-.menu-panel, .menu-panel-2 {
+.menu-panel {
     display: none;
     position: absolute;
-    width: 45%;
-    height: 35rem;
+    max-width: 35rem;
     background-color: white;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
     border-radius: 8px;
     top: 70px;
     z-index: 10;
 }
+
+.menu-panel-2 {
+    display: none;
+    position: absolute;
+    max-width: 35rem;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
+    border-radius: 8px;
+    top: 70px;
+    z-index: 10;
+}
+
 .menu-panel-3 {
     display: none;
     position: absolute;
-    width: 45%;
-    height: 470px;
+    max-width: 35rem;
     background-color: white;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
     border-radius: 8px;
@@ -80,16 +90,15 @@ nav ul .link-op .op1:hover , .op2:hover, .op3:hover, .op4:hover {
 .menu-panel-4 {
     display: none;
     position: absolute;
-    width: 45%;
-    height: 350px;
+    max-width: 35rem;
     background-color: white;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
     border-radius: 8px;
     top: 70px;
-    left: 230px;
-}
+    left: 330px;
+} 
 
-/* se coloco el contenido en 4 filas*/
+/* se coloco el contenido en 4 filas */
 .grid1, .grid2 {
     display: grid;
     grid-auto-flow: column;
@@ -121,6 +130,12 @@ nav ul .link-op .op1:hover , .op2:hover, .op3:hover, .op4:hover {
     float: left;
     list-style-type: none;
 }
+
+.menu-panel .grid1 .elementos .section,  .menu-panel-2 .grid2 .elementos .section,
+.menu-panel-3 .grid3 .elementos .section, .menu-panel-4 .grid4 .elementos .section {
+    margin-right: 1rem;
+}
+
 .grid1, .grid2, .grid3, .grid4 li {
     list-style-type: none;
 }
@@ -146,6 +161,7 @@ nav ul .link-op .op1:hover , .op2:hover, .op3:hover, .op4:hover {
     width: 90%;
     margin: 0 auto;
     margin-top: 0.5rem;
+    padding-bottom: 1rem;
     font-size: 1rem;
 }
 
