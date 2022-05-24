@@ -118,8 +118,6 @@
     .menu-panel {
         display: none;
         position: absolute;
-        width: 55%;
-        height: 43rem;
         background-color: white;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
         border-radius: 8px;
@@ -131,8 +129,6 @@
     .menu-panel-2 {
         display: none;
         position: absolute;
-        width: 55%;
-        height: 43rem;
         background-color: white;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
         border-radius: 8px;
@@ -144,20 +140,16 @@
     .menu-panel-3 {
         display: none;
         position: absolute;
-        width: 55%;
-        height: 35rem;
         background-color: white;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
         border-radius: 8px;
         top: 130px;
-        left: 380px;
+        left: 280px;
     }
     
     .menu-panel-4 {
         display: none;
         position: absolute;
-        width: 55%;
-        height: 25rem;
         background-color: white;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
         border-radius: 8px;
@@ -235,51 +227,43 @@
     .menu-panel {
         display: none;
         position: absolute;
-        width: 30%;
-        height: 50rem;
         background-color: white;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
         border-radius: 8px;
         top: 80px;
-        left: 220px;
+        left: 120px;
         z-index: 10;
     }
 
     .menu-panel-2 {
         display: none;
         position: absolute;
-        width: 30%;
-        height: 50rem;
         background-color: white;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
         border-radius: 8px;
         top: 80px;
-        left: 380px;
+        left: 280px;
         z-index: 10;
     }
     
     .menu-panel-3 {
         display: none;
         position: absolute;
-        width: 30%;
-        height: 45rem;
         background-color: white;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
         border-radius: 8px;
         top: 80px;
-        left: 500px;
+        left: 400px;
     }
     
     .menu-panel-4 {
         display: none;
         position: absolute;
-        width: 30%;
-        height: 30rem;
         background-color: white;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
         border-radius: 8px;
         top: 80px;
-        left: 450px;
+        left: 400px;
     }
 
     .menu-panel .grid1 .elementos,  .menu-panel-2 .grid2 .elementos,
@@ -363,51 +347,43 @@
         .menu-panel {
             display: none;
             position: absolute;
-            width: 35%;
-            height: 52rem;
             background-color: white;
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
             border-radius: 8px;
             top: 130px;
-            left: 100px;
+            left: 0px;
             z-index: 10;
         }
 
         .menu-panel-2 {
             display: none;
             position: absolute;
-            width: 35%;
-            height: 52rem;
             background-color: white;
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
             border-radius: 8px;
             top: 130px;
-            left: 230px;
+            left: 130px;
             z-index: 10;
         }
     
         .menu-panel-3 {
             display: none;
             position: absolute;
-            width: 35%;
-            height: 45rem;
             background-color: white;
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
             border-radius: 8px;
             top: 130px;
-            left: 350px;
+            left: 210px;
         }
         
         .menu-panel-4 {
             display: none;
             position: absolute;
-            width: 35%;
-            height: 32rem;
             background-color: white;
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) ;
             border-radius: 8px;
             top: 130px;
-            left: 280px;
+            left: 180px;
         }
 
         .menu-panel .grid1 .elementos,  .menu-panel-2 .grid2 .elementos,
