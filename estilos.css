@@ -13,24 +13,24 @@ header nav {
 }
 
 header nav .lista-principal { 
+    list-style-type: none;
+    padding-top: 16px;
+    position: relative;
     display: flex;
-    padding-top: 1rem;
+    justify-content: space-between;
 }
 
 header nav .lista-principal .link-op {
     list-style-type: none;
-    display: flex;
-    align-items: center;
+    display: inline-block;
+    padding-top: 0.5rem ;
 }
+
 
 header nav ul li a {
     text-decoration: none;
     color: #000;
     font-weight: bold;
-}
-
-header nav .link-op .op1, .op2, .op3, .op4 {
-    padding: 0 1.5rem;
 }
 
 header nav #boton-descarga {
@@ -40,7 +40,6 @@ header nav #boton-descarga {
     min-width: 174px;
     min-height: 34px;
     font-size: 14px;
-    margin-left: 13rem;
 }
 
 header nav .boton-descarga a {
@@ -172,7 +171,7 @@ nav ul .link-op:hover .menu-panel-4 {
 }
 
 .link-op {
-    height: 50px;
+    height: 60px;
 }
 
 /* CONTENEDOR DEL CONTENIDO */
