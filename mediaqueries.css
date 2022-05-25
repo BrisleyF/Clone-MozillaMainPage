@@ -442,6 +442,14 @@
         display: none;
     }
 
+    header nav .menu-bar {
+        display: block;
+        margin-top: 0.25rem;
+        margin-right: 1rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    
     .ContenedorC .c-contenido-1 {
         padding: 3rem 0 6rem 0;
     }
