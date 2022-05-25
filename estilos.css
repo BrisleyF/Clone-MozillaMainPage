@@ -49,6 +49,10 @@ header nav .boton-descarga a {
     padding: 4px 24px;
 }
 
+header nav .menu-bar {
+    display: none;
+}
+
 /* submenu del navbar*/
 nav ul .link-op .op1:hover , .op2:hover, .op3:hover, .op4:hover {
     text-decoration: underline 3px;
