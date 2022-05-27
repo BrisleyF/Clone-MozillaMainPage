@@ -430,15 +430,11 @@
         padding: 0 1.5rem;
     }
 
-    .link-op a {
+    nav .link-op a {
         display: none;
     }
 
     nav ul #boton-descarga {
-        border: none;
-    }
-
-    nav .boton-descarga a {
         display: none;
     }
 
